@@ -59,7 +59,7 @@ def process(table, n):
 
 if __name__ == '__main__':
     if len(sys.argv) < 3:
-        print("Использование: python find_best.py <Table> <N>")
+        print("Использование: python lab4.py <Table> <N>")
         exit(1)
 
     table_file_name = sys.argv[1]
